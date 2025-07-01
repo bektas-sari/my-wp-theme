@@ -4,12 +4,6 @@ A custom, modern, and responsive WordPress theme designed for stylish websites. 
 
 ---
 
-## 🚀 Live Demo (Optional)
-
-> *\[Add your site URL or GitHub Pages link here if available]*
-
----
-
 ## 📂 Project Structure
 
 ```
