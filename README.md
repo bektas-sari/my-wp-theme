@@ -54,12 +54,6 @@ my-wordpress-theme/
 
 ---
 
-## ✨ Screenshots
-
-> *Add screenshots of your theme here. E.g., full homepage, mobile view, etc.*
-
----
-
 ## 📌 Theme Metadata
 
 Extract from `style.css`:
@@ -67,7 +61,7 @@ Extract from `style.css`:
 ```css
 /*
 Theme Name: My WordPress Theme
-Theme URI: http://example.com/my-wordpress-theme
+Theme URI: http://example.com/my-wp-theme
 Author: Bektas Sari
 Author URI: https://github.com/bektas-sari
 Description: A custom WordPress theme with a modern design and responsive layout.
@@ -84,10 +78,10 @@ Tags: custom, responsive, modern
 
 **Bektas Sari**
 Email: [bektas.sari@gmail.com](mailto:bektas.sari@gmail.com)  <br>
-GitHub: [bektas-sari](https://github.com/bektas-sari)
-LinkedIn: [linkedin.com/in/bektas-sari](https://www.linkedin.com/in/bektas-sari)
-ResearchGate: [Bektas Sari](https://www.researchgate.net/profile/Bektas-Sari-3)
-Academia: [Independent Profile](https://independent.academia.edu/bektassari)
+GitHub: [bektas-sari](https://github.com/bektas-sari) <br>
+LinkedIn: [linkedin.com/in/bektas-sari](https://www.linkedin.com/in/bektas-sari) <br>
+ResearchGate: [Bektas Sari](https://www.researchgate.net/profile/Bektas-Sari-3) <br>
+Academia: [Independent Profile](https://independent.academia.edu/bektassari) <br>
 
 ---
 
