@@ -1,0 +1,175 @@
+/*
+Theme Name: My WordPress Theme
+Theme URI: http://example.com/my-wordpress-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme with a modern design and responsive layout.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom, responsive, modern
+*/
+
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #1a1a1a;
+    background: linear-gradient(120deg, #f5f7fa 0%, #e3e9f4 100%);
+    line-height: 1.7;
+    letter-spacing: 0.01em;
+}
+
+a {
+    color: #2563eb;
+    text-decoration: none;
+    transition: color 0.2s, border-bottom 0.2s;
+    border-bottom: 2px solid transparent;
+    font-weight: 500;
+}
+a:hover {
+    color: #38e8ff;
+    border-bottom: 2px solid #38e8ff;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #2563eb 0%, #38e8ff 100%);
+    color: #fff;
+    padding: 120px 0 90px 0;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(37, 99, 235, 0.10);
+    border-radius: 0 0 48px 48px;
+    position: relative;
+    overflow: hidden;
+}
+.hero-section h1 {
+    font-size: 3.2rem;
+    font-weight: 900;
+    margin-bottom: 22px;
+    letter-spacing: -1.5px;
+    line-height: 1.1;
+    text-shadow: 0 2px 16px rgba(56, 232, 255, 0.08);
+}
+.hero-section p {
+    font-size: 1.35rem;
+    margin-bottom: 44px;
+    opacity: 0.97;
+    font-weight: 500;
+}
+
+.cta-btn {
+    background: linear-gradient(90deg, #38e8ff 0%, #2563eb 100%);
+    color: #fff;
+    padding: 18px 52px;
+    border-radius: 32px;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.15rem;
+    box-shadow: 0 2px 16px rgba(56, 232, 255, 0.10);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s, transform 0.15s;
+    display: inline-block;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    letter-spacing: 0.03em;
+}
+.cta-btn:hover {
+    background: linear-gradient(90deg, #2563eb 0%, #38e8ff 100%);
+    color: #fff;
+    box-shadow: 0 8px 32px rgba(56, 232, 255, 0.18);
+    transform: translateY(-2px) scale(1.04);
+}
+
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    gap: 48px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 48px 24px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 6px 32px rgba(37, 99, 235, 0.10), 0 1.5px 6px rgba(0,0,0,0.04);
+    border: 1.5px solid #e3e9f4;
+    padding: 56px 36px;
+    flex: 1 1 320px;
+    min-width: 280px;
+    max-width: 360px;
+    transition: box-shadow 0.22s, transform 0.22s, border-color 0.22s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+    position: relative;
+    overflow: hidden;
+}
+.card:hover {
+    box-shadow: 0 16px 48px rgba(56, 232, 255, 0.22), 0 2px 8px rgba(0,0,0,0.06);
+    transform: translateY(-10px) scale(1.035);
+    border-color: #38e8ff;
+}
+.card h2 {
+    font-size: 1.6rem;
+    font-weight: 800;
+    margin-bottom: 18px;
+    color: #2563eb;
+    letter-spacing: -0.5px;
+}
+.card p {
+    font-size: 1.08rem;
+    color: #333;
+    opacity: 0.94;
+    text-align: center;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        gap: 28px;
+        align-items: center;
+        padding: 32px 8px;
+    }
+    .card {
+        max-width: 98%;
+        padding: 36px 16px;
+    }
+    .hero-section h1 {
+        font-size: 2.3rem;
+    }
+    .hero-section {
+        padding: 64px 0 48px 0;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 7px;
+    background: #e3e9f4;
+}
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(120deg, #b3d1ff 0%, #38e8ff 100%);
+    border-radius: 8px;
+    border: 2px solid #e3e9f4;
+}
+
+/* Modern input styles (isteğe bağlı) */
+input, textarea, select {
+    border-radius: 10px;
+    border: 1.5px solid #e3e9f4;
+    padding: 12px 16px;
+    font-size: 1rem;
+    font-family: inherit;
+    transition: border-color 0.18s, box-shadow 0.18s;
+    outline: none;
+    margin-bottom: 12px;
+    background: #fafdff;
+}
+input:focus, textarea:focus, select:focus {
+    border-color: #38e8ff;
+    box-shadow: 0 0 0 2px #38e8ff22;
+}

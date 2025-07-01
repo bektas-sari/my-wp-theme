@@ -1,0 +1,133 @@
+/*
+Theme Name: My WordPress Theme
+Theme URI: http://example.com/my-wordpress-theme
+Author: Your Name
+Author URI: http://example.com
+Description: A custom WordPress theme with a modern design and responsive layout.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: custom, responsive, modern
+*/
+
+body {
+    font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #222;
+    background: #f5f7fa;
+    line-height: 1.6;
+}
+
+a {
+    color: #4f8cff;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+a:hover {
+    color: #38e8ff;
+}
+
+.hero-section {
+    background: linear-gradient(135deg, #4f8cff 0%, #38e8ff 100%);
+    color: #fff;
+    padding: 100px 0 80px 0;
+    text-align: center;
+    box-shadow: 0 8px 32px rgba(79, 140, 255, 0.10);
+    border-radius: 0 0 40px 40px;
+    position: relative;
+    overflow: hidden;
+}
+.hero-section h1 {
+    font-size: 3rem;
+    font-weight: 800;
+    margin-bottom: 20px;
+    letter-spacing: -1px;
+}
+.hero-section p {
+    font-size: 1.3rem;
+    margin-bottom: 40px;
+    opacity: 0.95;
+}
+
+.cta-btn {
+    background: #fff;
+    color: #4f8cff;
+    padding: 18px 48px;
+    border-radius: 30px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.1rem;
+    box-shadow: 0 2px 16px rgba(79, 140, 255, 0.10);
+    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+    display: inline-block;
+}
+.cta-btn:hover {
+    background: #4f8cff;
+    color: #fff;
+    box-shadow: 0 8px 32px rgba(79, 140, 255, 0.15);
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    gap: 40px;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.08);
+    padding: 48px 32px;
+    flex: 1 1 320px;
+    min-width: 280px;
+    max-width: 350px;
+    transition: box-shadow 0.2s, transform 0.2s;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.card:hover {
+    box-shadow: 0 12px 40px rgba(79, 140, 255, 0.18);
+    transform: translateY(-8px) scale(1.03);
+}
+.card h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 16px;
+    color: #4f8cff;
+}
+.card p {
+    font-size: 1.05rem;
+    color: #444;
+    opacity: 0.92;
+    text-align: center;
+}
+
+@media (max-width: 900px) {
+    .container {
+        flex-direction: column;
+        gap: 24px;
+        align-items: center;
+    }
+    .card {
+        max-width: 100%;
+    }
+    .hero-section h1 {
+        font-size: 2.2rem;
+    }
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    background: #e3e9f4;
+}
+::-webkit-scrollbar-thumb {
+    background: #b3d1ff;
+    border-radius: 8px;
+}
