@@ -32,11 +32,11 @@ my-wordpress-theme/
 ## 🛠️ Installation
 
 1. Download this repository as a ZIP file or clone it.
-2. Rename the folder to `my-wordpress-theme` if necessary.
+2. Rename the folder to `my-wp-theme` if necessary.
 3. Upload it to your WordPress installation:
 
    ```
-   wp-content/themes/my-wordpress-theme/
+   wp-content/themes/my-wp-theme/
    ```
 4. From your WordPress dashboard:
 
