@@ -1,4 +1,4 @@
-# 🎨 My WordPress Theme
+# 🎨 My WordPress Theme (WP)
 
 A custom, modern, and responsive WordPress theme designed for stylish websites. Built with simplicity and flexibility in mind — perfect for personal, portfolio, or business sites.
 
